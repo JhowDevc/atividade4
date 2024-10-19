@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de TI - Inovação e Soluções Tecnológicas</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+</head>
+<body>
+
+ 
+  <!-- Cabeçalho -->
+  <header class="d-flex justify-content-center py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container ">
+        <!-- Botão de navegação responsivo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <!-- Links de navegação -->
+         <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testemunhos.html">Testemunhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contato</a>
+            </li>
+          </ul>
+
+          <!-- Chamada para ação (CTA) -->
+          <a class="btn btn-primary ml-3" href="#contato">Entre em Contato</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="carrossel">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-12">
+        <!-- Banner Principal com Slider -->
+        <div class="swiper-container">
+          <!-- Slides -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('https://img.freepik.com/fotos-gratis/homem-com-copia-espaco-e-dispositivo-futurista_23-2148864987.jpg?t=st=1728925100~exp=1728928700~hmac=b92f8e82ad098c8780c4a6c032ce9466efe7d0fd4d2d0009a0cb31bd1a875452&w=1060');"></div>
+            <div class="swiper-slide" style="background-image: url('https://img.freepik.com/fotos-gratis/homem-com-tecnologia-de-oculos-vr_23-2148864943.jpg?t=st=1728925113~exp=1728928713~hmac=c553653dac88a35e43e2ea935943846be29e2544a83d567f9cfac156e24ed59a&w=900');"></div>
+            <div class="swiper-slide" style="background-image: url('https://img.freepik.com/fotos-gratis/homem-de-close-up-usando-oculos-vr_23-2148864928.jpg?t=st=1728925138~exp=1728928738~hmac=963063e775bf06544c0c5e99456890a0d0b7bd70bb350e54580cb99d482a6f29&w=1060');"></div>
+          </div>
+          <!-- Botões de Navegação -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- Indicadores -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  
+
+   <!-- Serviços -->
+   <section id="servicos" class="service text-center">
+    <div class="container">
+      <h2 class="mb-5">Nossos Serviços</h2>
+      <div class="row" id="service-cards">
+        <!-- Service cards serão populados aqui via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+ <!-- Portfólio -->
+ <section id="portfolio" class="portfolio text-center">
+    <div class="container">
+      <h2 class="mb-5">Projetos Recentes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010144.jpg" alt="Projeto 1" class="img-fluid mb-3">
+          <h5>Projeto de Infraestrutura</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/psd-gratuitas/design-de-modelo-de-instagram-de-ferias-de-design-plano_23-2149418398.jpg" alt="Projeto 2" class="img-fluid mb-3">
+          <h5>Aplicativo Web</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/fotos-gratis/pessoas-analisando-e-verificando-graficos-financeiros-no-escritorio_23-2150377179.jpg" alt="Projeto 3" class="img-fluid mb-3">
+          <h5>Sistema de Gerenciamento</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  
+  
+
+  <!-- Chamada para Ação -->
+  <section class="cta text-center">
+    <div class="container">
+      <h2>Entre em Contato para Inovar com Tecnologia!</h2>
+      <p>Descubra como podemos auxiliar no crescimento e transformação digital do seu negócio.</p>
+      <a href="#contato" class="btn btn-light mt-3">Solicitar uma Consulta</a>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contact text-center py-5">
+    <div class="container">
+      <h2 class="mb-5">Fale Conosco</h2>
+      <form>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Nome" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #3f51b5">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="index.html" class="text-white">Home</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="about.html" class="text-white">Sobre</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="services.html" class="text-white">Serviços</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="testemunhos.html" class="text-white">Testemunhos</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="contact.html" class="text-white">Contato</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                distinctio earum repellat quaerat voluptatibus placeat nam,
+                commodi optio pariatur est quia magnam eum harum corrupti
+                dicta, aliquam sequi voluptate quas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://devcarvalheiro.com.br/"
+           >devcarvalheiro.com.br</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </section>
+    <!-- Footer -->
+  
+  <!-- End of .container -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="api.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  
+
+  <!-- Inicialização do Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+  <!-- JavaScript para Popular os Serviços e Depoimentos -->
+  <script>
+    // URL da API de serviços (usando JSONPlaceholder para usuários como exemplo)
+    const serviceApiURL = 'https://jsonplaceholder.typicode.com/users?_limit=3';
+
+    // Fetching dados dos serviços
+    fetch(serviceApiURL)
+      .then(response => response.json())
+      .then(data => {
+        const serviceContainer = document.getElementById('service-cards');
+
+        // Limpar conteúdo existente (opcional)
+        serviceContainer.innerHTML = '';
+
+        // Iterar pelos dados e criar os cards de serviço
+        data.forEach(service => {
+          const serviceCard = `
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <i class="fas fa-laptop-code icon"></i>
+              <h4>${service.name}</h4>
+              <p>${service.company.catchPhrase}</p>
+            </div>
+          `;
+          serviceContainer.innerHTML += serviceCard;
+        });
+
+        // Re-inicializar AOS para novos elementos
+        AOS.refresh();
+      })
+      .catch(error => console.error('Erro ao buscar serviços:', error));
+
+    // URL da API de depoimentos (usando JSONPlaceholder para comentários)
+    const testimonialApiURL = 'https://jsonplaceholder.typicode.com/comments?_limit=3';
+
+    // Função para obter fotos aleatórias para os depoimentos
+    function getRandomPhoto(id) {
+      const gender = id % 2 === 0 ? 'men' : 'women';
+      return `https://randomuser.me/api/portraits/${gender}/${id}.jpg`;
+    }
+
+    // Fetching dados dos depoimentos
+    fetch(testimonialApiURL)
+      .then(response => response.json())
+      .then(data => {
+        const testimonialContainer = document.getElementById('testimonial-cards');
+
+        // Limpar conteúdo existente (opcional)
+        testimonialContainer.innerHTML = '';
+
+        // Iterar pelos dados e criar os cards de depoimento
+        data.forEach(testimonial => {
+          // Obter foto aleatória
+          const photoUrl = getRandomPhoto(testimonial.id);
+
+          const testimonialCard = `
+            <div class="col-md-4 mb-4" data-aos="fade-up">
+              <div class="card h-100">
+                <img src="${photoUrl}" class="card-img-top rounded-circle mx-auto mt-3" alt="${testimonial.name}" style="width: 100px; height: 100px; object-fit: cover;">
+                <div class="card-body">
+                  <h5 class="card-title">${testimonial.name}</h5>
+                  <p class="card-text">"${testimonial.body}"</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">${testimonial.email}</small>
+                </div>
+              </div>
+            </div>
+          `;
+          testimonialContainer.innerHTML += testimonialCard;
+        });
+
+        // Re-inicializar AOS para novos elementos
+        AOS.refresh();
+      })
+      .catch(error => console.error('Erro ao buscar depoimentos:', error));
+  </script>
+
+</body>
+</html>

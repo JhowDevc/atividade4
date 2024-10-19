@@ -1,0 +1,114 @@
+.nav-link:hover{
+  font-weight: bold;
+}
+.carrossel{
+  overflow: hidden;
+}
+
+/* Evita que o contêiner do Swiper exceda a largura da página */
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Garante que os slides ocupem toda a largura do contêiner */
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Ajuste a altura conforme necessário */
+}
+
+  .hero {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 100px 0;
+  }
+  .service {
+    padding: 50px 0;
+  }
+  .portfolio {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .cta {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 50px 0;
+  }
+  /* Servicos */
+  
+  .service, .about, .portfolio, .testimonial, .cta {
+    padding: 60px 0;
+  }
+  .service h4, .portfolio h5, .testimonial footer {
+    color: #0d6efd;
+  }
+  .service .icon {
+    font-size: 48px;
+    color: #0d6efd;
+  }
+  .portfolio img {
+    border-radius: 8px;
+  }
+  .testimonial {
+    background-color: #f8f9fa;
+  }
+  .cta {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  .cta .btn {
+    color: #0d6efd;
+    background-color: #fff;
+  }
+  .about img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+   /* Estilos para os depoimentos */
+   .testimonial .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial .card-img-top {
+    border: 3px solid #0d6efd;
+  }
+
+  .testimonial .card-title {
+    color: #0d6efd;
+    margin-top: 15px;
+  }
+
+  .testimonial .card-text {
+    font-style: italic;
+    color: #555;
+  }
+
+  .testimonial .card-footer {
+    background-color: transparent;
+    border-top: none;
+  }
+  /* Ajustes de altura para diferentes tamanhos de tela */
+  @media (max-width: 768px) {
+    .swiper-container {
+      height: 40vh;
+    }
+    .btn-menu{
+      visibility: hidden;
+    }
+  }
+  @media (max-width: 576px) {
+    .swiper-container {
+      height: 30vh;
+    }
+    .btn-menu{
+      visibility: hidden;
+    }
+  }
